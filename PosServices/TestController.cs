@@ -9,20 +9,20 @@ namespace PosServices
     public class TestController : ApiController
     {
         [HttpGet]
-        [Route("/ping")]
+        [Route("ping")]
         public void Ping()
         {
         }
 
         [HttpGet]
-        [Route("/test1")]
+        [Route("test1")]
         public string Test1()
         {
             return "test 1 response";
         }
 
         [HttpPost]
-        [Route("/test2")]
+        [Route("test2")]
         public string Test2()
         {
             return "test 2 response";

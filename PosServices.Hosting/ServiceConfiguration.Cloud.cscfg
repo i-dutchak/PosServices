@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="PosServices.Hosting" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="PosServices">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=t0portalvhdsrt0tm2j63t3d;AccountKey=pka5F76Ic1q8Hxegrz7vD+AY0ZJqa+oEdYUUrCMHdjdNxt+Me9bJmBTBlHyNpT3DOXt7O/Z4qhGlfVaJr+gOug==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
