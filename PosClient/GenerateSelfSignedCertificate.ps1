@@ -1,0 +1,1 @@
+﻿ New-SelfSignedCertificate -Type Custom -Subject "CN=POS test ivan,OU=UserAccounts,DC=corp,DC=coop,DC=dk" -KeyUsage DigitalSignature -KeyAlgorithm RSA -KeyLength 2048 -CertStoreLocation "Cert:\CurrentUser\My"
