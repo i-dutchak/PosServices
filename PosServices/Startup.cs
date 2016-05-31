@@ -14,6 +14,8 @@ namespace PosServices
         {
             var config = new HttpConfiguration();
             config.MapHttpAttributeRoutes();
+            config.Filters.Add(new AuthorizeAttribute());
+            config.MessageHandlers.Add(new CustomCertificateMessageHandler());
 
             app.UseWebApi(config);
         }
